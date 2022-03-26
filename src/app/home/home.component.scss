@@ -1,0 +1,14 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+}
+#p0{
+    background-color: gray;
+}

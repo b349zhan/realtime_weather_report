@@ -1,0 +1,10 @@
+<div class="main">
+    <div class="cards">
+        <card *ngFor="let forcast of forecasts; let i = index" 
+        [day]="forcast['day']" 
+        [icon]="forcast['icon']" 
+        [day_temp]="forcast['day_temp']"
+        [night_temp]="forcast['night_temp']" [id]="'p'+i">
+        </card>
+    </div>
+</div>
